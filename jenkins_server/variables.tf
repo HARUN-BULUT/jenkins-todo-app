@@ -8,7 +8,7 @@ variable "git-token" {
 }
 
 variable "git-repo-name" {
-  default = "jenkins-project-todo-app"
+  default = "jenkins-todo-app"
 }
 
 variable "backend" {
