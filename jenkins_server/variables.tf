@@ -1,5 +1,5 @@
 variable "mykey" {
-  default = "mykey"
+  default = "firstkey"
 }
 
 variable "git-token" {
@@ -8,11 +8,11 @@ variable "git-token" {
 }
 
 variable "git-repo-name" {
-  default = "cw-todo-app"
+  default = "jenkins-project-todo-app"
 }
 
 variable "backend" {
-  default = "jenkins-project-backend"
+  default = "jenkins-project-backend-harun"
   description = "give a unique name for s3 bucket"
 }
 
